@@ -66,6 +66,11 @@ sudo apt install mysql-server
     ```
 
     Mettre à jour les informations de connexion à la base de données dans `config.inc.php`.
+    ```php
+    $_DVWA[ 'db_user' ] = 'dvwa';
+    $_DVWA[ 'db_password' ] = 'password';
+    $_DVWA[ 'db_database' ] = 'dvwa';
+    ```
 
 ### Étape 4 : Configuration de Nginx pour DVWA
 
