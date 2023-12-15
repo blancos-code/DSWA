@@ -4,4 +4,4 @@ Experimentation avec DVWA et NAXSI
 
 
 ## Installation
-Sous machine virtuelle, installer [DVWA](DVWA.MD)
+Sous machine virtuelle, installer [DVWA avec NGINX](DVWA.MD)
