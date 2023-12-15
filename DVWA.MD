@@ -28,7 +28,6 @@ sudo apt install php-fpm php-mysql
 
 ```bash
 sudo apt install mysql-server
-sudo mysql_secure_installation
 ```
 
 ### Étape 2 : Configuration de MySQL
