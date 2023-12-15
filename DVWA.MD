@@ -43,7 +43,7 @@ sudo mysql_secure_installation
 
     ```sql
     CREATE DATABASE dvwa;
-    CREATE USER 'dvwa'@'localhost' IDENTIFIED BY 'password';
+    CREATE USER 'dvwa'@'localhost' IDENTIFIED BY 'J3r3my!!2023';
     GRANT ALL PRIVILEGES ON dvwa.* TO 'dvwa'@'localhost';
     FLUSH PRIVILEGES;
     EXIT;
