@@ -66,6 +66,3 @@ sudo systemctl restart nginx
 
 - **Testez** votre configuration en essayant d'accéder à DVWA et en effectuant des activités normales. Vérifiez si des requêtes légitimes sont bloquées.
 
----
-
-Ce README offre un guide de base pour la configuration de NAXSI avec DVWA sur Nginx. Il peut nécessiter des ajustements en fonction de votre configuration spécifique et des exigences de votre environnement.
