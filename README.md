@@ -1,6 +1,10 @@
 # Damn Secure Web Application
 Experimentation avec DVWA et NAXSI
 
+##
+Pour ce projet j'ai compilé NGINX avec le WAF NAXSI.
+Malheureusement, après avoir compilé NGINX avec NAXSI, je rencontre des difficultés pour le faire fonctionner correctement. Malgré avoir suivi attentivement les étapes d'installation et de configuration, je fais face à des problèmes opérationnels.
+
 ## Recompilation de Nginx avec Naxsi
 1. Installez les dépendances :
    ```bash
@@ -83,6 +87,8 @@ Experimentation avec DVWA et NAXSI
    CheckRule "$EVADE >= 4" BLOCK;
    CheckRule "$XSS >= 8" BLOCK;
    ```
+   ![image](https://github.com/blancos-code/DSWA/assets/79577721/ac968cca-87b0-4c15-baf5-d5e0615c31e6)
+   
 
 6. Ouvrez le fichier de configuration Nginx du domaine et incluez le fichier de règles :
    ```bash
@@ -93,8 +99,10 @@ Experimentation avec DVWA et NAXSI
    ```nginx
    include /etc/nginx/example.com.rules;
    ```
+   ![image](https://github.com/blancos-code/DSWA/assets/79577721/2f64a712-70b3-43c1-b47f-f1adac56ab62)
+
 
 8. Enregistrez le fichier et redémarrez Nginx :
    ```bash
    service nginx restart
-   ```
+   ```   
