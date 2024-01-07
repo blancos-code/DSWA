@@ -1,9 +1,10 @@
+Sacha Blanco
 # Damn Secure Web Application
 Experimentation avec DVWA et NAXSI
 
 ##
 Pour ce projet j'ai compilé NGINX avec le WAF NAXSI.
-Malheureusement, après avoir compilé NGINX avec NAXSI, je rencontre des difficultés pour le faire fonctionner correctement. Malgré avoir suivi attentivement les étapes d'installation et de configuration, je fais face à des problèmes opérationnels.
+Malheureusement, après avoir compilé NGINX avec NAXSI, je rencontre des difficultés pour le faire fonctionner correctement. Malgré avoir suivi attentivement les étapes d'installation et de configuration, je fais face à des problèmes opérationnels donc **pas de démo** étant donné que le WAF ne fonctionne pas.
 
 ## Recompilation de Nginx avec Naxsi
 1. Installez les dépendances :
